@@ -3,7 +3,7 @@ clc,clear all;close all;
 global Fs
 
 % Simulation parameters
-RelTol=1e-12;               % Relative tolerance
+RelTol=1e-10;               % Relative tolerance
 totalSim=50e-3;             % Stop simulation time
 StepTime=0.01e-3;             % discrete 
 
