@@ -44,4 +44,4 @@ Para conluir la actividad, se deben realizar tres tipos de entregas:
   - Cómo se ha realizado la división de tareas
   - Los resultados principales obtenidos a lo largo del desarrollo de las actividades
   - Las conclusiones obtenidas en cada etapa
-- Presentación oral, de 10 minutos máximos de duración, usando preferentemente medios visuales, donde se resuman las conclusiones y resultadso obtenidos.
+- Presentación oral, de 10 minutos máximos de duración, usando preferentemente medios visuales, donde se resuman las conclusiones y resultados obtenidos y se demuestre un claro conocimiento técnico sobre las actividades desarrolladas.
