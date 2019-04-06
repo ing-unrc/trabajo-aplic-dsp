@@ -1,8 +1,9 @@
 # Actividad práctica
 
-## Uso de herramientas Matlab/Simulink y Git para la integración de asignaturas relacionadas con Procesamiento Digital de Señales y Electrónica de Potencia
+### Uso de herramientas Matlab/Simulink y Git para la integración de asignaturas relacionadas con Procesamiento Digital de Señales y Electrónica de Potencia
 
 ## Objetivos de la actividad
+- Elaborar un algoritmo que permita analizar el contenido armónico de las señales de salida entregadas por un convertidor electrónico de potencia. 
 - Integrar y complementar los contenidos de asignaturas las carreras Electrónica de Potencia (Ing. Electricista) y Aplicaciones del Procesamiento Digital de Señales (ing. en Telecomunicaciones).
 - Participar en una actividad que requiera trabajo en forma colaborativa, usando herramientas de desarrollo y simulación de uso común en la industria y ámbitos académicos.
 - Realizar actividades sobre una aplicación práctica.
