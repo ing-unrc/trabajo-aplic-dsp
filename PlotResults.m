@@ -91,70 +91,7 @@ axis([0.01 0.05 -1.5 1.5]);
 
 return
 
-%****************
 
-subplot(6,1,5);
-plot(S1.time,S1.signals.values,'k','LineWidth',1);grid on, box on,
-
-set(gca,'fontname','Times New Roman');
-set(gca,'fontsize',8);
-ylabel('$s_1 , \bar{s}_2$','units','centimeters','position',[-.6 alto/2-0.5],'interpreter','latex','fontsize',10);
-
-set(gca,'OuterPosition',[0 0.19 1 0.2]);
-set(gca,'XTickLabel','|||||')
-axis([8.0e-3 8.2e-3 -0.5 1.4]);
-
-%return
-
-%****************
-subplot(6,1,6);
-plot(S3.time,S3.signals.values,'k','LineWidth',1);grid on, box on,
-
-set(gca,'fontname','Times New Roman');
-set(gca,'fontsize',8);
-ylabel('$s_3 , \bar{s}_4$','units','centimeters','position',[-.6 alto/2-0.5],'interpreter','latex','fontsize',10);
-xlabel('$time$','units','centimeters','position',[ancho/2 -.45],'interpreter','latex','fontsize',10);
-
-set(gca,'OuterPosition',[0 0.02 1 0.22]);
-%set(gca,'YTickLabel','60|30|0|-30')
-%set(gca,'XTickLabel','|||||')
-axis([8.0e-3 8.2e-3 -0.5 1.4]);
-%****************
-
-%print -depsc -tiff 'StepDown0degNSS.eps'
-
-return
-%******************
-%******************
-ancho_figura = 8.59;
-alto_figura = 6;
-
-x = 1.1;
-ancho = 7;
-y0 = 1;
-alto = alto_figura/1;
-margenv = .7;
-
-figura = figure(4);
-set(figura,'units','centimeters');
-set(figura,'position',[7 1 ancho_figura alto_figura*1]);
-set(figura,'paperunits','centimeters');
-set(figura,'papersize',[ancho_figura alto_figura*1]);
-set(figura,'paperpositionmode','auto');
-
-%************************************
-figure(4)
-
-subplot(1,1,1);
-plot(Vout.signals.values(init:finish),iL.signals.values(init:finish),'k','LineWidth',1);grid on, box on,
-
-set(gca,'fontname','Times New Roman');
-set(gca,'fontsize',8);
-ylabel('$i_{L}$','units','centimeters','position',[-.6 alto/2-0.5],'interpreter','latex','fontsize',10);
-xlabel('$v_{o}$','units','centimeters','position',[ancho/2 -0.45],'interpreter','latex','fontsize',10);
-
-
-set(gca,'OuterPosition',[0 0.1 1 0.85]);
 
 
 %print -depsc -tiff 'StepDown0degNSS.eps'
